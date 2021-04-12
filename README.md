@@ -1,6 +1,6 @@
 # reAudioPlayer Apollo
 
-Now also open source
+Now open source
 
 ## Dependencies
 
