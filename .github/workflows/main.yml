@@ -1,0 +1,12 @@
+name: Test
+on: push
+jobs:
+  test:
+    name: Fetch
+    runs-on: ubuntu-latest
+    container: ubuntu:20.10
+    env:
+      DEBIAN_FRONTEND: noninteractive
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./build.sh make
